@@ -1,0 +1,8 @@
+[build]
+publish = "public"  # Eğer HTML dosyalarınız farklı bir klasördeyse dizin ismini değiştirin
+command = "npm run build"  # Eğer build süreciniz varsa, yoksa bu satırı kaldırabilirsiniz
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
